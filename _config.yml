@@ -2,11 +2,10 @@
 name: "Bake The Lake"
 title: "Bake The Lake"
 description: "Teaching modern data concepts through pastry"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo-text.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
 google_analytics: ''
-mailchimp-list: ''
 include: ["_pages"]
 permalink: "/:title"
 
@@ -14,7 +13,7 @@ permalink: "/:title"
 authors:
   sz:
     name: SZ
-    display_name: SZ
+    display_name: Sylvain Zyssman
     gravatar: 
     email: contact@bakethelake.com
     web: https://bakethelake.com
