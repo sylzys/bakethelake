@@ -1,0 +1,15 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+  featured: Featured
+  all_posts: All posts
+  explore: Explore
+  type_search: Type and search
+  category: Category
+langs:
+  fr: FR
+  en: EN
+titles:
+  pagination: Pagination

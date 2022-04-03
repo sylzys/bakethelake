@@ -5,36 +5,46 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+@import "syntax", "starsnonscss";
 
 .mainheading img {
-	width: 43%;
+  width: 43%;
 }
 
 .navbar-brand img {
-	width: 35%;
+  width: 35%;
 }
 
 .disclaimer {
-    background-color: rgba(22, 108, 189, 0.149);
-    padding: 10px;
-    margin-bottom: 20px;
+  background-color: rgba(22, 108, 189, 0.149);
+  padding: 10px;
+  margin-bottom: 20px;
 }
 figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
 }
 figure {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  flex-flow: column;
 }
+
+.nav-item a {
+  display: inline-block;
+  vertical-align: middle;
+  &:not(:last-child) {
+    padding: 0 !important;
+    margin-right: 0;
+  }
+  img {
+      width: 80%;
+  }
+}
+

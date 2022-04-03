@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-admin'
     gem 'jekyll'
     gem 'jekyll-feed'
+    gem 'jekyll-multiple-languages-plugin'
     gem 'jekyll-sitemap'
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'

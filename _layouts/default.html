@@ -68,6 +68,8 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/index.html"><img src="assets/images/en.png" /></a>
+                <a class="nav-link" href="{{ site.baseurl }}/fr/index.html"><img src="assets/images/fr.png" /></a>
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                 </li>
 
@@ -148,7 +150,7 @@ ga('send', 'pageview');
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">{% t global.explore %} <span class="d-none d-md-inline">→</span></h2>
             </div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">

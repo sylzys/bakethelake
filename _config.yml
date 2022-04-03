@@ -25,7 +25,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+  - jekyll-multiple-languages-plugin
+
+# Language
+
+languages: ["en", "fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
 # Archives
 jekyll-archives:
   enabled:
