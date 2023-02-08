@@ -9,12 +9,19 @@ google_analytics: ''
 include: ["_pages"]
 permalink: "/:title"
 
+backend:
+  name: git-gateway
+  branch: master
+  squash_merges: true
+
+publish_mode: editorial_workflow
+
 # Authors
 authors:
   sz:
     name: SZ
     display_name: Sylvain Zyssman
-    gravatar: 
+    gravatar:
     email: contact@bakethelake.com
     web: https://bakethelake.com
     description: "AI Engineer - Team leader - Challenge seeker | I help companies build scalable end-to-end solutions"
@@ -38,11 +45,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
