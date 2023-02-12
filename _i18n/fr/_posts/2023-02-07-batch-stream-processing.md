@@ -4,7 +4,7 @@ title:  "Batch & Stream processing "
 author: sz
 language: fr
 categories: [ data engineering, flow ]
-image: assets/images/etl_elt.jpg
+image: assets/images/batch_stream_processing.jpg
 description: "Une phase importante du Data Engineering concerne le processing des données pour analyse"
 featured: true
 hidden: true
@@ -12,7 +12,7 @@ hidden: true
 
 <div class="disclaimer"><i>Attention : ce site Web propose une approche métaphorique des concepts de big data, de Data Science et de Data Engineering. Ceux-ci sont volontairement simplifiés et certains d'entre eux peuvent être éludés ou approximatifs.</i></div>
 
-Un des piliers du Data Engineering est l'architecture Lambda. Ce concept s'appuie sur 2 méthodes pour le traitement des données. Le choix de l'une ou l'autre des méthodes dépendra de votre besoin d'insights.
+Un des piliers du traitement de données en Data Engineering est l'architecture Lambda. Ce concept s'appuie sur 2 méthodes. Le choix de l'une ou l'autre de ces méthodes dépendra de votre besoin d'insights.
 
 ## Stream processing
 
@@ -53,4 +53,4 @@ Le procédé est simple, facile à mettre en place et à bas coût, permettant d
 
 A mesure de l'activité, et si le besoin d'analyse en temps réel se fait sentir, on peut alors ajouter une pipeline "stream" à notre plateforme big data.
 
-<p><a href="https://unsplash.com" target="blank_"><small>Images from Unsplash (Robert Bye)</small></a></p>
+<p><a href="https://unsplash.com" target="blank_"><small>Top image from Unsplash (Petr Sevcovic)</small></a></p>

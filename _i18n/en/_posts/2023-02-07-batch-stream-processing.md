@@ -4,53 +4,53 @@ title:  "Batch & Stream processing "
 author: sz
 language: fr
 categories: [ data engineering, flow ]
-image: assets/images/etl_elt.jpg
-description: "Une phase importante du Data Engineering concerne le processing des données pour analyse"
+image: assets/images/batch_stream_processing.jpg
+description: "An important Data Engineering step is about processing datas to further analyze them."
 featured: true
 hidden: true
 ---
 
-<div class="disclaimer"><i>Attention : ce site Web propose une approche métaphorique des concepts de big data, de Data Science et de Data Engineering. Ceux-ci sont volontairement simplifiés et certains d'entre eux peuvent être éludés ou approximatifs.</i></div>
+<div class="disclaimer"><i>Disclaimer : this website offers a metaphorical approach to big data, data science and data engineering concepts. They are purposely simplified and some of them may be eluded or approximative.</i></div>
 
-Un des piliers du Data Engineering est l'architecture Lambda. Ce concept s'appuie sur 2 méthodes pour le traitement des données. Le choix de l'une ou l'autre des méthodes dépendra de votre besoin d'insights.
+One of the most important aspects of data processing in Data Engineering is the Lambda architecture. This concept is based on 2 methods. The choice of one or the other will depend the insights you need.
 
 ## Stream processing
 
-Retournons dans notre boulangerie. Tout au long de la journée, des clients se rendent dans la boutique et achètent nos produits.
+Back to our bakery. Throughout the day, customers come into the store and buy our products.
 
-De temps à autres, le patron passe à l'improviste. Il veut absolument avoir un aperçu en (quasi) "temps réel" des chiffres de la boutique.
+From time to time, the boss drops by. He wants to have an (almost) "real time" overview of the store's performance.
 
-Pour répondre à ce besoin, et les venues étant non planifiées, les employés notent chacunes de leurs ventes sur un tableau blanc. Les données arrivent en temps réel (après chaque vente) et l'analyse est immédiate.
+To meet his need, and since the visits are unplanned, the employees write down each of their sales on a whiteboard. The data arrives in real time (after each sale) and the analysis is instant.
 
-L'analyse des données et sa visualisation ("dataviz") est bien sûr fonction des données collectées. Cela peut-être simplement le nombre de ventes, mais aussi par quel employé, quel type de produit, à quelle période ou heure de la journée, quel type de clientèle (données socio-démographiques), quel type de paiement...
+The analysis of the data and its visualization ("dataviz") is of course based on the data collected. It can be simply the number of sales, but also by which employee, which type of product, at which period or time of the day, which type of customer (socio-demographic data), which type of payment...
 
 <figure>
     <img src="assets/images/stream_processing.jpg" alt="Les données peuvent être collectées en 'stream processing', en (quasi) temps-réel"/>
-    <figcaption>Les données peuvent être collectées en 'stream processing', en (quasi) temps-réel.</figcaption>
+    <figcaption>Data can be processed en (near) real-time by using 'stream processing'.</figcaption>
 </figure>
 
 ## Batch processing
 
-Si le stream processing permet un aperçu temps réel, il ne permet pas de prendre du recul sur la data.
+While stream processing can provide a real-time overview, it does not easily give a clear, in-depth perspective on the data.
 
-Il est difficile d'envisager un gigantesque tableau blanc, sur lequel on noterait toutes les transactions de l'année dans le détail.
+It is difficult to imagine a gigantic whiteboard on which all the transactions of the year are recorded in detail.
 
-Alors on stocke les données et on les analyse par "chunk". Un lot d'une semaine, d'un mois d'un an... On peut faire des analyses sur des données plus larges et avoir une vision globale.
+So we store the data and analyze it by "chunk". A batch of a week, a month, a year of sales... We can make analysis on larger data and have a global vision, see the "big picture".
 
-Bien sûr, rien n'empêche dans l'absolu de faire du stream processing sur de longues périodes, sous réserve de disposer des ressources nécessaires et d'adapter son workflow avec les outils adaptés.
+Of course, nothing prevents stream processing over long periods of time, assuming you have the necessary resources and adapt your workflow with the appropriate tools.
 
 
 <figure>
     <img src="assets/images/batch_processing.jpg" alt="Le 'batch processing' permet une vision plus globale"/>
-    <figcaption>Le 'batch processing' permet une vision plus globale,7 sur plus de données.</figcaption>
+    <figcaption>'Batch processing' allows a broader view, using more data.</figcaption>
 </figure>
 
-## Stream ou batch ?
+## Stream or batch ?
 
-Il est souvent recommandé de commencer par le batch processing, considéré comme une base solide d'une plateforme big data performante.
+It is often recommended to start with batch processing, which is considered as a solid base for a performing big data platform.
 
-Le procédé est simple, facile à mettre en place et à bas coût, permettant d'obtenir une vision globale sur les données, les clients...
+The process is simple, easy to set up and low cost, allowing to get a global view on data, customers...
 
-A mesure de l'activité, et si le besoin d'analyse en temps réel se fait sentir, on peut alors ajouter une pipeline "stream" à notre plateforme big data.
+As the business grows, and if the need for real-time analysis arises, we can then add a stream pipeline to our big data platform.
 
-<p><a href="https://unsplash.com" target="blank_"><small>Images from Unsplash (Robert Bye)</small></a></p>
+<p><a href="https://unsplash.com" target="blank_"><small>Images from Unsplash (Petr Sevcovic)</small></a></p>
