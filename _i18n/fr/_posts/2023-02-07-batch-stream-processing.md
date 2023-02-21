@@ -26,7 +26,7 @@ L'analyse des données et sa visualisation ("dataviz") est bien sûr fonction de
 
 <figure>
     <img src="assets/images/stream_processing.jpg" alt="Les données peuvent être collectées en 'stream processing', en (quasi) temps-réel"/>
-    <figcaption>Les données peuvent être collectées en 'stream processing', en (quasi) temps-réel.</figcaption>
+    <figcaption>Les données peuvent être collectées par 'stream processing', en (quasi) temps-réel.</figcaption>
 </figure>
 
 ## Batch processing
@@ -35,21 +35,21 @@ Si le stream processing permet un aperçu temps réel, il ne permet pas de prend
 
 Il est difficile d'envisager un gigantesque tableau blanc, sur lequel on noterait toutes les transactions de l'année dans le détail.
 
-Alors on stocke les données et on les analyse par "chunk". Un lot d'une semaine, d'un mois d'un an... On peut faire des analyses sur des données plus larges et avoir une vision globale.
+Alors on stocke les données et on les analyse par "chunk". Un lot d'une semaine, d'un mois, d'un an de ventes... On peut faire des analyses sur des données plus larges et avoir une vision globale.
 
 Bien sûr, rien n'empêche dans l'absolu de faire du stream processing sur de longues périodes, sous réserve de disposer des ressources nécessaires et d'adapter son workflow avec les outils adaptés.
 
 
 <figure>
     <img src="assets/images/batch_processing.jpg" alt="Le 'batch processing' permet une vision plus globale"/>
-    <figcaption>Le 'batch processing' permet une vision plus globale,7 sur plus de données.</figcaption>
+    <figcaption>Le 'batch processing' permet une vision plus globale, sur plus de données.</figcaption>
 </figure>
 
 ## Stream ou batch ?
 
 Il est souvent recommandé de commencer par le batch processing, considéré comme une base solide d'une plateforme big data performante.
 
-Le procédé est simple, facile à mettre en place et à bas coût, permettant d'obtenir une vision globale sur les données, les clients...
+Le procédé est simple, facile à mettre en place et à coût relativement bas, permettant d'obtenir une vision globale sur les données, les clients...
 
 A mesure de l'activité, et si le besoin d'analyse en temps réel se fait sentir, on peut alors ajouter une pipeline "stream" à notre plateforme big data.
 

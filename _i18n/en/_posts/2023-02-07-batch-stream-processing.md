@@ -12,7 +12,7 @@ hidden: true
 
 <div class="disclaimer"><i>Disclaimer : this website offers a metaphorical approach to big data, data science and data engineering concepts. They are purposely simplified and some of them may be eluded or approximative.</i></div>
 
-One of the most important aspects of data processing in Data Engineering is the Lambda architecture. This concept is based on 2 methods. The choice of one or the other will depend the insights you need.
+One of the most important aspects of data processing in Data Engineering is the Lambda architecture. This concept is based on 2 methods. The choice of one or the other will depend on the insights you need.
 
 ## Stream processing
 
@@ -26,16 +26,16 @@ The analysis of the data and its visualization ("dataviz") is of course based on
 
 <figure>
     <img src="assets/images/stream_processing.jpg" alt="Les données peuvent être collectées en 'stream processing', en (quasi) temps-réel"/>
-    <figcaption>Data can be processed en (near) real-time by using 'stream processing'.</figcaption>
+    <figcaption>Data can be processed on (near) real-time by using 'stream processing'.</figcaption>
 </figure>
 
 ## Batch processing
 
 While stream processing can provide a real-time overview, it does not easily give a clear, in-depth perspective on the data.
 
-It is difficult to imagine a gigantic whiteboard on which all the transactions of the year are recorded in detail.
+It is difficult to imagine a gigantic whiteboard on which all the transactions of the year would be recorded in detail.
 
-So we store the data and analyze it by "chunk". A batch of a week, a month, a year of sales... We can make analysis on larger data and have a global vision, see the "big picture".
+So we store the data and analyze it in "chunk". A batch of a week, a month, a year of sales... We can make analysis on larger data and have a global vision, see the "big picture".
 
 Of course, nothing prevents stream processing over long periods of time, assuming you have the necessary resources and adapt your workflow with the appropriate tools.
 
@@ -49,7 +49,7 @@ Of course, nothing prevents stream processing over long periods of time, assumin
 
 It is often recommended to start with batch processing, which is considered as a solid base for a performing big data platform.
 
-The process is simple, easy to set up and low cost, allowing to get a global view on data, customers...
+The process is simple, easy to set up and pretty low cost, allowing to get a global view on data, customers...
 
 As the business grows, and if the need for real-time analysis arises, we can then add a stream pipeline to our big data platform.
 
