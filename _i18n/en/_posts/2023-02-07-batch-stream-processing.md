@@ -53,4 +53,4 @@ The process is simple, easy to set up and pretty low cost, allowing to get a glo
 
 As the business grows, and if the need for real-time analysis arises, we can then add a stream pipeline to our big data platform.
 
-<p><a href="https://unsplash.com" target="blank_"><small>Images from Unsplash (Petr Sevcovic)</small></a></p>
+<p><a href="https://unsplash.com" target="blank_"><small>Image from Unsplash (Petr Sevcovic)</small></a></p>
