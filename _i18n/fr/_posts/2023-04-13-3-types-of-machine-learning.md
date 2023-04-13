@@ -18,47 +18,49 @@ Il existe trois principaux types d'apprentissage dans le Machine Learning : l'ap
 
 Pour l'apprentissage supervisé, le modèle est alimenté avec de nombreuses informations (entrées) et le résultat attendu (cible, ou sortie). Prenons un exemple simple : classer les images de chats et de chiens.
 
-Many images are labeled ("cat", "dog") and passed to the ML model. With these images, the model learns how to distinguish both animals, improves (measured by the selected metrics) and become able to correctly classify them ("This image is a cat, I'm 92.18% sure")
+De nombreuses images sont étiquetées ("chat", "chien") et transmises au modèle ML. Avec ces images, le modèle apprend à distinguer les deux animaux, s'améliore (mesuré par les paramètres sélectionnés) et devient capable de les classer correctement ("Cette image est un chat, je suis sûr à 92,18 %")
 
-Same goes with a chef, and her student. At the beginning, the student does not know anything. Hence, the chef has to teach him everything. Inputs could be the ingredients and their quantity, the process... the target, or output, is the cake. By practicing, under the supervision of the chef, the student improves (measured by the cake aspect and taste) and becomes able to realise the recipe.
-
-<figure>
-    <img src="assets/images/ML_supervised.jpg" alt="Under supervision, with known inputs and outputs, the student improves"/>
-    <figcaption>Under supervision, with known inputs and outputs, the student improves.</figcaption>
-</figure>
-
-## Unsupervised Learning
-
-Sometimes, the student is an external candidate. He has no chef to supervise and teach him. So he takes what's available as input: the recipes.
-
-Let's imagine that the student finds many recipes, with no title nor picture. Inputs are available (ingredients, process), but he needs to group recipes by similarities. If he finds a recipe containing milk, caramel & vanilla and fridge, it's unlikely that the student will classify it with a recipe with chocolate, flour, butter, sugar and oven.
-
-That's one of the scenarios of Unsupervised Learning: clustering.
-
-Back to Machine Learning. A common case of unsupervised learning (and clustering) is marketing segmentation. For a marketplace, we have many inputs such as orders, average spending, socio-demographics data (age, family, job...). With all this, the ML model will, without assistance, uncover patterns or structure in the data without knowing the correct answers in advance, and find similarities between customers and "cluster" them.
-
-Another example with our cats and dogs images, we will pass the images to the model, but no label. The computer will have to find a way to distinguish between each type (maybe with eyes shape, tail length, paws etc)
-
+Il en va de même avec un chef et son élève. Au début, l'élève ne sait rien. Par conséquent, le chef doit tout lui apprendre. Les intrants peuvent être les ingrédients et leur quantité, le processus... la cible, ou le résultat, est le gâteau. En pratiquant, sous la supervision du chef, l'élève s'améliore (mesuré par l'aspect et le goût du gâteau) et devient capable de réaliser la recette.
 
 <figure>
-    <img src="assets/images/ML_unsupervised.jpg" alt="Unsupervised learning does not provide output"/>
-    <figcaption>Unlike supervised learning, we don't feed the expected results to the model.</figcaption>
+    <img src="assets/images/ML_supervised.jpg" alt="Sous supervision, avec des entrées et des sorties connues, l'étudiant s'améliore"/>
+    <figcaption>Sous supervision, avec des entrées et des sorties connues, l'étudiant s'améliore.</figcaption>
 </figure>
 
-## Reinforcement Learning
+## Apprentissage non supervisé
 
-Reinforcement learning is the one that needs the most autonomy. Our pastry chef has no recipes, no process, no picture of the expected cake. All he can use is trial and error. But how will he know if he's on the good way ?
+Parfois, l'étudiant est un candidat libre. Il n'a pas de chef pour le superviser et lui apprendre. Il prend donc ce qui est disponible en entrée : les recettes.
 
-He has to find a reward / penalty system, and use continuous improvement:
-- bake a cake
-- have the customers taste it
-- get the feedbacks (positive: reward, negative: penalty)
-- iterate based on the feedbacks
-- repeat until the goal is met (a specific amount a cakes sold, for instance)
+Imaginons que l'élève trouve plusieurs recettes, sans titre ni image. Des entrées sont disponibles (ingrédients, processus), et il a besoin de regrouper les recettes par similarités. S'il trouve une recette contenant du lait, du caramel, de la vanille et un frigo, il est peu probable que l'élève la classe avec une recette avec du chocolat, de la farine, du beurre, du sucre et un four.
 
-In Machine Learning, Reinforcement Learning is often used to "teach" autonomous cars to drive.
-The car is rewarded for following traffic rules and safely navigating the roads, and is penalized for breaking traffic laws or causing accidents. Obviously, we want to maximize the reward (and minimize the penalty).
+C'est l'un des scénarios de l'apprentissage non supervisé : le clustering.
 
-Through reinforcement learning, the car can continuously learn and improve its driving behavior and ultimately go successfully from point A to point B.
+Retour à l'apprentissage automatique. Un cas courant d'apprentissage non supervisé est la segmentation marketing. Pour une place de marché, nous avons de nombreuses entrées telles que les commandes, les dépenses moyennes, les données socio-démographiques (âge, famille, emploi...). Avec tout cela, le modèle ML va, sans assistance, découvrir des modèles ou une structure dans les données sans connaître les bonnes réponses à l'avance, et trouver des similitudes entre les clients et les "regrouper".
 
-<p><a href="https://unsplash.com" target="blank_"><small>Image from Unsplash (Fabrizio Magoni, Todd Quackenbush)</small></a> & <a href="https://burst.shopify.com/" target="blank_"><small> Burst (Sarah Pflug)</small></a></p>
+Autre exemple avec nos images de chats et de chiens, nous allons passer les images au modèle, mais pas les labeliser. L'ordinateur devra trouver un moyen de distinguer chaque type (peut-être avec la forme des yeux, la longueur de la queue, les pattes, etc.)
+
+
+<figure>
+    <img src="assets/images/ML_unsupervised.jpg" alt="Contrairement à l'apprentissage supervisé, nous ne transmettons pas les résultats attendus au modèle"/>
+    <figcaption>Contrairement à l'apprentissage supervisé, nous ne transmettons pas les résultats attendus au modèle.</figcaption>
+</figure>
+
+## Apprentissage par renforcement
+
+L'apprentissage par renforcement est celui qui nécessite le plus d'autonomie. Notre chef pâtissier n'a aucune recette, aucun procédé, aucune photo du gâteau attendu. Tout ce qu'il peut utiliser, c'est un processus d'essais et d'erreurs. Mais comment saura-t-il s'il est sur la bonne voie ?
+
+Il doit trouver un système de récompense / pénalité et utiliser l'amélioration continue :
+
+- préparer un gâteau
+- le faire goûter aux clients
+- obtenir les retours (positif : récompense, négatif : pénalité)
+- itérer en fonction des retours
+- répéter jusqu'à ce que l'objectif soit atteint (une quantité précise de gâteaux vendus, par exemple)
+
+Dans l'apprentissage automatique, l'apprentissage par renforcement est souvent utilisé pour "apprendre" aux voitures autonomes à conduire.
+
+La voiture est récompensée pour avoir respecté les règles de circulation et navigué en toute sécurité sur les routes, et est pénalisée pour avoir enfreint le code de la route ou causé des accidents. Évidemment, l'objectif est de maximiser la récompense (et minimiser la pénalité).
+
+Grâce à l'apprentissage par renforcement, la voiture peut continuellement apprendre et améliorer son comportement de conduite, pour se rendre avec succès du point A au point B.
+
+<p><a href="https://unsplash.com" target="blank_"><small>Image Unsplash (Fabrizio Magoni, Todd Quackenbush)</small></a> & <a href="https://burst.shopify.com/" target="blank_"><small> Burst (Sarah Pflug)</small></a></p>
