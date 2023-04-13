@@ -5,7 +5,6 @@ description: "Teaching modern data concepts through pastry"
 logo: 'assets/images/logo-text.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
-google_analytics: ''
 include: ["_pages"]
 permalink: "/:title"
 
@@ -24,7 +23,7 @@ authors:
     gravatar:
     email: contact@bakethelake.com
     web: https://bakethelake.com
-    description: "AI Engineer - Team leader - Challenge seeker | I help companies build scalable end-to-end solutions"
+    description: "Head Of Engineering - DataOps - Team leader - Challenge seeker | I help companies build scalable, end-to-end, software & data solutions"
 # Plugins
 plugins:
   - jekyll-paginate

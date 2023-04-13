@@ -2,7 +2,7 @@
 layout: post
 title:  "Batch & Stream processing "
 author: sz
-language: fr
+language: en
 categories: [ data engineering, flow ]
 image: assets/images/batch_stream_processing.jpg
 description: "An important Data Engineering step is about processing datas to further analyze them."
