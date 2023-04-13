@@ -12,13 +12,13 @@ hidden: false
 
 <div class="disclaimer"><i>Disclaimer : this website offers a metaphorical approach to big data, data science and data engineering concepts. They are purposely simplified and some of them may be eluded or approximative.</i></div>
 
-Machine learning is a type of artificial intelligence that allows computers to learn and improve from experience. Let's go over three types of Machine Learning (ML): supervised, unsupervised, and reinforcement learning.
+Machine learning is a type of artificial intelligence that allows computers to learn and improve from experience. There are three main types of Machine Learning (ML): supervised, unsupervised, and reinforcement learning. Each of these types has different characteristics and use cases, and understanding them is crucial for anyone interested in the field of machine learning.
 
 ## Supervised Learning
 
 In supervised learning, the model is fed with many informations (inputs) and the expected result (target, or output). Let's take a simple example: classify images of cats and dogs.
 
-Many images are labeled ("cat", "dog") and passed to the ML model. With these images, the model learns how to distinguish both animals, improves (measured by the selected metrics) and become able to correctly classify them.
+Many images are labeled ("cat", "dog") and passed to the ML model. With these images, the model learns how to distinguish both animals, improves (measured by the selected metrics) and become able to correctly classify them ("This image is a cat, I'm 92.18% sure")
 
 Same goes with a chef, and her student. At the beginning, the student does not know anything. Hence, the chef has to teach him everything. Inputs could be the ingredients and their quantity, the process... the target, or output, is the cake. By practicing, under the supervision of the chef, the student improves (measured by the cake aspect and taste) and becomes able to realise the recipe.
 
@@ -35,7 +35,7 @@ Let's imagine that the student finds many recipes, with no title nor picture. In
 
 That's one of the scenarios of Unsupervised Learning: clustering.
 
-Back to Machine Learning. A common case of unsupervised learning (and clustering) is marketing segmentation. For a marketplace, we have many inputs such as orders, average spending, socio-demographics data (age, family, job...). With all this, the ML model will, without assistance, find similarities between customers and "cluster" them.
+Back to Machine Learning. A common case of unsupervised learning (and clustering) is marketing segmentation. For a marketplace, we have many inputs such as orders, average spending, socio-demographics data (age, family, job...). With all this, the ML model will, without assistance, uncover patterns or structure in the data without knowing the correct answers in advance, and find similarities between customers and "cluster" them.
 
 Another example with our cats and dogs images, we will pass the images to the model, but no label. The computer will have to find a way to distinguish between each type (maybe with eyes shape, tail length, paws etc)
 
@@ -57,7 +57,7 @@ He has to find a reward / penalty system, and use continuous improvement:
 - repeat until the goal is met (a specific amount a cakes sold, for instance)
 
 In Machine Learning, Reinforcement Learning is often used to "teach" autonomous cars to drive.
-The car is rewarded for following traffic rules and safely navigating the roads, and is penalized for breaking traffic laws or causing accidents.
+The car is rewarded for following traffic rules and safely navigating the roads, and is penalized for breaking traffic laws or causing accidents. Obviously, we want to maximize the reward (and minimize the penalty).
 
 Through reinforcement learning, the car can continuously learn and improve its driving behavior and ultimately go successfully from point A to point B.
 
