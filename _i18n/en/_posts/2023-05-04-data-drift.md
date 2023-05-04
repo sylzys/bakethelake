@@ -15,7 +15,7 @@ hidden: true
 Panic in the room. The model we trained and deployed a few months ago is not performing as well as it used to.
 What happened ? Let's investigate one possible solution:
 
-## Data Drift
+## Data Drifr
 
 Data Drift is a phenomenon that occurs when the initial performance of a model decreases. It can be due to a lot of reasons, but to illustrate that, let's go to our pastry shop first.
 
