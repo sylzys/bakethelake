@@ -5,7 +5,7 @@ author: sz
 language: en
 categories: [ Data Science, Machine Learning, Performance ]
 image: assets/images/data_drift.jpg
-description: "Data Drift occrus when the initial performance of a model decrease."
+description: "Data Drift occurs when the initial performance of a model decrease."
 featured: true
 hidden: true
 ---
